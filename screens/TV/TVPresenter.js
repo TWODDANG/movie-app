@@ -11,12 +11,12 @@ const Container = styled.ScrollView`
 `;
 
 const TVPresenter = ({ loading, popular, airingThisWeek, airingToday }) =>
-    loading ? (
+    (loading ? (
         <Loader />
     ) : (
         <Container>
             {airingToday ? (
-                <Section title="Airing Today">
+                <Section title="오늘은 어떤 프로그램?">
                     {airingToday
                         .filter(tv => tv.poster_path !== null)
                         .map(tv => (
@@ -32,7 +32,7 @@ const TVPresenter = ({ loading, popular, airingThisWeek, airingToday }) =>
                 </Section>
             ) : null}
             {airingThisWeek ? (
-                <Section title="Airing this Week">
+                <Section title="이번주 프로그램">
                     {airingThisWeek
                         .filter(tv => tv.poster_path !== null)
                         .map(tv => (
@@ -48,7 +48,7 @@ const TVPresenter = ({ loading, popular, airingThisWeek, airingToday }) =>
                 </Section>
             ) : null}
             {popular ? (
-                <Section title="Popular" horizontal={false}>
+                <Section title="인기 있는..!" horizontal={false}>
                     {popular
                         .filter(tv => tv.poster_path !== null)
                         .map(tv => (
@@ -66,6 +66,7 @@ const TVPresenter = ({ loading, popular, airingThisWeek, airingToday }) =>
                 </Section>
             ) : null}
         </Container>
+    )
     );
 
 TVPresenter.propTypes = {

@@ -7,29 +7,23 @@ export default class extends React.Component {
     state = {
         loading: true,
         popular: null,
-        topRated: null,
+        airingThisWeek: null,
         airingToday: null
     };
 
-    logFunction = () => {
-        console.log('TVContainer시발');
-    };
 
     async componentDidMount() {
-        let popular, topRated, airingToday, error;
-        console.log('componentDidMount');
-        this.logFunction();
+        let popular, airingThisWeek, airingToday, error;
         try {
             ({
                 data: { results: popular }
             } = await tv.getPopular());
             ({
-                data: { results: topRated }
-            } = await tv.getTopRated());
+                data: { results: airingThisWeek }
+            } = await tv.getAiringThisWeek());
             ({
                 data: { results: airingToday }
             } = await tv.getAiringToday());
-            console.log('ComponentDidMount try중..')
         } catch (error) {
             console.log(error);
             error = "Can't get TV";
@@ -38,22 +32,20 @@ export default class extends React.Component {
                 loading: false,
                 error,
                 popular,
-                topRated,
+                airingThisWeek,
                 airingToday
             });
-            this.logFunction();
         }
     }
 
     render() {
         const { loading, popular, topRated, airingToday } = this.state;
-        console.log('!!!!!!');
         return (
             <TVPresenter
                 loading={loading}
-                airingToday={airingToday}
-                topRated={topRated}
-                popular={popular}
+                airingToday={this.state.airingToday}
+                airingThisWeek={this.state.airingThisWeek}
+                popular={this.state.popular}
             />
         );
     }

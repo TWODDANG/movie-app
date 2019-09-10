@@ -1,13 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f8a1f2a-c54e-44d1-9b1f-62f692d8e6e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/screens/Detail/DetailPresenter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/Detail/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/Search/SearchContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/Search/SearchPresenter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/Search/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MovieItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MovieSlide.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieSlide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Section.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Section.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/TabNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/TabNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Detail/DetailContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Movies/MoviesPresenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Movies/MoviesPresenter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/TV/TVContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/TV/TVContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/TV/TVPresenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/TV/TVPresenter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectId" id="1QHLGWSwjSYch2dRWfR6XG8pMY7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\이창호\Desktop\codes\react-native\movieapp\79iug12@gmail.com" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\이창호\Desktop\codes\react-native\movieapp\79iug12@gmail.com\screens\Detail" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f8a1f2a-c54e-44d1-9b1f-62f692d8e6e3" name="Default Changelist" comment="" />
+      <created>1567422479327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567422479327</updated>
+      <workItem from="1567422480868" duration="2213000" />
+      <workItem from="1567441804793" duration="1420000" />
+      <workItem from="1567480001976" duration="788000" />
+      <workItem from="1567515295738" duration="5910000" />
+      <workItem from="1567576823395" duration="2754000" />
+      <workItem from="1567595800182" duration="3146000" />
+      <workItem from="1567604734727" duration="2157000" />
+      <workItem from="1567677334890" duration="9671000" />
+      <workItem from="1567691707609" duration="3479000" />
+      <workItem from="1567791640710" duration="921000" />
+      <workItem from="1567866274709" duration="709000" />
+      <workItem from="1567926405418" duration="1523000" />
+      <workItem from="1567927948952" duration="4485000" />
+      <workItem from="1567955503991" duration="4203000" />
+      <workItem from="1568005918277" duration="1351000" />
+      <workItem from="1568007294744" duration="1691000" />
+      <workItem from="1568037075482" duration="3399000" />
+      <workItem from="1568041122467" duration="102000" />
+      <workItem from="1568114361024" duration="907000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
