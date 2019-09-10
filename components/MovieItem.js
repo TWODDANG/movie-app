@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled from 'styled-components/native'
 import MoviePoster from "./MoviePoster";
 import MovieRating from "./MovieRatings";
 import {GREY_COLOR} from "../constants/Colors";

@@ -2,26 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f8a1f2a-c54e-44d1-9b1f-62f692d8e6e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/screens/Detail/DetailPresenter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Detail/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Search/SearchContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Search/SearchPresenter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Search/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Loader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/MovieItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MoviePoster.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MoviePoster.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MovieRatings.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieRatings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/MovieSlide.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieSlide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MovieSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieSlider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Section.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Section.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation/TabNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/TabNavigation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Detail/DetailContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Detail/DetailPresenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Detail/DetailPresenter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/Movies/MoviesPresenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Movies/MoviesPresenter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/TV/TVContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/TV/TVContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Search/SearchPresenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Search/SearchPresenter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/TV/TVPresenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/TV/TVPresenter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +89,7 @@
       <workItem from="1568007294744" duration="1691000" />
       <workItem from="1568037075482" duration="3399000" />
       <workItem from="1568041122467" duration="102000" />
-      <workItem from="1568114361024" duration="907000" />
+      <workItem from="1568114361024" duration="3261000" />
     </task>
     <servers />
   </component>

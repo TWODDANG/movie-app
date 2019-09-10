@@ -2,7 +2,7 @@ import React from 'react';
 import {Text} from 'react-native';
 import PropTypes from 'prop-types';
 import Loader from "../../components/Loader";
-import styled from 'styled-components';
+import styled from 'styled-components/native'
 import MovieSlider from "../../components/MovieSlider";
 import {BG_COLOR} from "../../constants/Colors";
 import Section from "../../components/Section";

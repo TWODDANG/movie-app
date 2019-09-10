@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled from 'styled-components/native'
 import {BG_COLOR, TINT_COLOR} from "../../constants/Colors";
 import Layout from "../../constants/Layout";
 import makePhotoUrl from "../../utils/makePhotoUrl";
@@ -47,7 +47,7 @@ position: relative;
 justify-content: flex-end;
 `;
 
-const MainContent = styled.view`
+const MainContent = styled.View`
     padding-horizontal: 20px;
     margin-top: 25px;
 `;
