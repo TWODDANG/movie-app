@@ -102,7 +102,11 @@ const DetailPresenter = ({
     genres,
     runtime,
     tagline,
-    videos
+    videos,
+    homepage,
+    last_air_date,
+    season_number,
+    episode_number,
                          }) =>{
     return (
         <Container>
@@ -132,7 +136,7 @@ const DetailPresenter = ({
                     <ContentValue>{overview}</ContentValue>
                 </> : null}
                 {status ? <>
-                    <ContentTitle># 개봉 여부</ContentTitle>
+                    <ContentTitle># 개봉 상황</ContentTitle>
                     <ContentValue>{status}</ContentValue>
                 </> : null}
                 {date ? <>
@@ -142,9 +146,25 @@ const DetailPresenter = ({
                         }</ContentTitle>
                     <ContentValue>{date}</ContentValue>
                 </> : null}
+                {last_air_date ? <>
+                    <ContentTitle># 마지막 방영일</ContentTitle>
+                    <ContentValue>{last_air_date}</ContentValue>
+                </> : null}
+                {season_number ? <>
+                    <ContentTitle># 총 시즌 수</ContentTitle>
+                    <ContentValue>{`${season_number}개`}</ContentValue>
+                </> : null}
+                {episode_number ? <>
+                    <ContentTitle># 총 에피소드 수</ContentTitle>
+                    <ContentValue>{`${episode_number}개`}</ContentValue>
+                </> : null}
                 {runtime ? <>
                     <ContentTitle># 러닝 타임</ContentTitle>
                     <ContentValue>{`${runtime}분`}</ContentValue>
+                </> : null}
+                {homepage ? <>
+                    <ContentTitle onPress={() =>
+                        Linking.openURL(`${homepage}`)}># 홈페이지 방문 (여기를 누르세요!)</ContentTitle>
                 </> : null}
                 {videos ? ( videos.length > 0 ? (
                         <>

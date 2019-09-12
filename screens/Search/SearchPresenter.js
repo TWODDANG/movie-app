@@ -89,7 +89,7 @@ const SearchPresenter = ({
                       ) : <TextView><Text>영화가 없어요:)</Text></TextView>
                   ) : <Animated.View style={{opacity :fade}}>
                       <TextView>
-                          <Text>이댕댕 무비 서처 :)</Text>
+                          <Text>이댕댕 무비 앱 :)</Text>
                       </TextView>
                       </Animated.View>
 

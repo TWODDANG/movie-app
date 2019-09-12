@@ -31,7 +31,8 @@ export default class extends React.Component{
     }
     async componentDidMount(){
         const {isMovie, id} = this.state;
-        let  videos, tagline, genres, overview, status, runtime, date, backgroundPhoto;
+        let  episode_number, season_number, homepage, last_air_date,videos, tagline, genres,
+            overview, status, runtime, date, backgroundPhoto;
         try{
             if(isMovie){
                 ({
@@ -53,7 +54,12 @@ export default class extends React.Component{
                         overview,
                         status,
                         first_air_date:date,
-                        backdrop_path: backgroundPhoto
+                        backdrop_path: backgroundPhoto,
+                        last_air_date,
+                        homepage,
+                        number_of_episodes: episode_number,
+                        number_of_seasons: season_number,
+
                     }
                 } = await tv.getShow(id));
             }
@@ -81,7 +87,10 @@ export default class extends React.Component{
                     status,
                     date,
                     runtime,
-                    tagline,
+                    last_air_date,
+                    season_number,
+                    episode_number,
+                    homepage,
                 });
             }
 
@@ -92,7 +101,7 @@ export default class extends React.Component{
         const {
             id, posterPhoto, backgroundPhoto, title, voteAvg,
             overview, loading,date,status,isMovie,genres,runtime,tagline
-            ,videos
+            ,videos, last_air_date, season_number, episode_number, homepage
         } = this.state;
         return <DetailPresenter
         id={id}
@@ -109,6 +118,10 @@ export default class extends React.Component{
         runtime={runtime}
         tagline={tagline}
         videos={videos}
+        last_air_date={last_air_date}
+        season_number = {season_number}
+        episode_number = {episode_number}
+        homepage = {homepage}
         />
 
     }
