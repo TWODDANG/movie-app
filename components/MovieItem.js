@@ -31,6 +31,7 @@ const Column = styled.View`
 const Overview = styled.Text`
     color: ${GREY_COLOR};
     font-size: 12px;
+    width: 90%
 `;
 
 const MovieItem  = ({id,

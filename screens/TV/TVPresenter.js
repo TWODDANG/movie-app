@@ -48,7 +48,7 @@ const TVPresenter = ({ loading, popular, airingThisWeek, airingToday }) =>
                 </Section>
             ) : null}
             {popular ? (
-                <Section title="인기 있는..!" horizontal={false}>
+                <Section title="인기 있는!" horizontal={false}>
                     {popular
                         .filter(tv => tv.poster_path !== null)
                         .map(tv => (
