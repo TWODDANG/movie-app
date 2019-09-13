@@ -1,13 +1,16 @@
 {
   "expo": {
-    "name": "movie app",
-    "slug": "WhatIsWrongWithThisSlug",
+    "name": "댕댕 무비",
+    "slug": "2ddMovieApp",
     "privacy": "public",
-    "sdkVersion": "32.0.0",
+    "sdkVersion": "33.0.0",
     "platforms": [
       "ios",
-      "android",
+      "android"
     ],
+    "android": {
+      "package": "com.LDDstudio.LddMovieApp"
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
